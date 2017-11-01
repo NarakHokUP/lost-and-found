@@ -23,14 +23,25 @@ public class Property {
 
 	@Column(name = "description")
 	private String description;
-	
+
 	@Column(name = "images")
 	private String[] images;
-	
+
 	@ManyToOne
 	@JoinColumn(name = "poster_id")
 	private User poster;
-	
+
+	@Column(name = "type")
+	private String type;
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
 	public Integer getId() {
 		return id;
 	}

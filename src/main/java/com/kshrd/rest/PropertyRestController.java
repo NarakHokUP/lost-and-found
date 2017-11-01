@@ -26,7 +26,4 @@ public class PropertyRestController {
 		return new ResponseEntity<Property>(HttpStatus.CREATED);
 	}
 	
-	
-	
-	
 }
