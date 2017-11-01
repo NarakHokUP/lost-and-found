@@ -6,7 +6,7 @@
 	<groupId>com.kshrd</groupId>
 	<artifactId>lost-and-found</artifactId>
 	<version>0.0.1</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>lost-and-found</name>
 	<description>Build my own modules</description>
